@@ -18,3 +18,16 @@
    height: 100%;
    /* object-fit: cover; */
 }
+
+.loader {
+   /* background-color: red; */
+   height: 100vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.hidden {
+   display: none;
+}

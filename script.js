@@ -19,3 +19,10 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
    },
 });
+
+const loader = document.querySelector('.loader');
+
+setTimeout(() => {
+   loader.classList.add('hidden')
+}, 2000
+);
